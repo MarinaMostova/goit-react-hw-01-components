@@ -17,9 +17,7 @@
 
 .statlist {
   display: flex;
-  /* justify-content: space-between; */
   justify-content: space-evenly;
-
   flex-basis: 25%;
   margin: 0;
   padding: 0;
