@@ -3,7 +3,6 @@ import StatisticsItem from './StatisticsItem';
 import css from './Statistic.module.css';
 
 const Statistics = ({ text, data }) => {
-
   return (
     <div>
       <section className={css.statistics}>
@@ -13,7 +12,6 @@ const Statistics = ({ text, data }) => {
           {data.map(item => {
             return (
               <StatisticsItem
-               
                 key={item.id}
                 label={item.label}
                 percentage={item.percentage}
